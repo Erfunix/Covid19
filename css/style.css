@@ -1,0 +1,70 @@
+.display-1 {
+  font-size: 32pt;
+}
+
+.font-weight-light {
+  font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.box-shadow-yellow{
+  box-shadow: 0 0px 20px 6px rgb(255 235 59 / 24%);
+}
+
+.h-100{
+  height: 100%;
+}
+
+.rotate{
+  transform: rotate(30deg) scale(0.5);
+}
+
+.border-yellow {
+  border-width: 1px;
+  border-radius: 16px;
+  border-color: #ffeb3b;
+  border-style: dashed;
+}
+
+.text-yellow {
+  color: #ffeb3b;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  font-family: Shabnam;
+  margin: 0;
+  background-color: #40c1ac;
+  color: white;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam-WOL.eot");
+  src: url("./fonts/Shabnam-WOL.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Shabnam-WOL.woff2") format("woff2"),
+    url("./fonts/Shabnam-WOL.woff") format("woff"),
+    url("./fonts/Shabnam-WOL.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam-Bold-WOL.eot");
+  src: url("./fonts/Shabnam-Bold-WOL.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Shabnam-Bold-WOL.woff2") format("woff2"),
+    url("./fonts/Shabnam-Bold-WOL.woff") format("woff"),
+    url("./fonts/Shabnam-Bold-WOL.ttf") format("truetype");
+  font-weight: bold;
+}
